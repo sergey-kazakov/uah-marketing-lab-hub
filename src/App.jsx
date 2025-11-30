@@ -12,7 +12,7 @@ export default function App() {
 
   const t = uiTexts[lang];
   
-  const manualUrl = "http://localhost:3000/es/intro"; // как у тебя сейчас
+  const manualUrl = "https://uah-marketing-lab-docs.netlify.app/es/intro"; // как у тебя сейчас
   
   const contactRef = useRef(null);
   
