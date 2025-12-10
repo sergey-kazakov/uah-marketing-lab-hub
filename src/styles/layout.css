@@ -14,8 +14,9 @@
 }
 
 .logo {
-  background: #22c55e;
-  color: #0f172a;
+  background: #ffffff;
+  color: #0077C8;
+  border: 2px solid #0077C8;
   font-weight: 700;
   padding: 4px 10px;
   border-radius: 999px;

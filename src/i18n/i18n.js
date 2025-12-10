@@ -6,7 +6,7 @@ export const LANGS = {
 export const uiTexts = {
   es: {
     title: "UAH Marketing Lab",
-    subtitle: "Ciclo de aplicaciones interactivas de marketing",
+    subtitle: "Suite de aplicaciones interactivas para una docencia innovadora en marketing",
     heroDescription:
       "Cada aplicación es un mini-laboratorio para practicar conceptos clave con datos y simulaciones.",
     viewManual: "Ver manual docente",
@@ -37,7 +37,7 @@ export const uiTexts = {
   },
   en: {
     title: "UAH Marketing Lab",
-    subtitle: "Interactive marketing applications cycle",
+    subtitle: "Interactive applications suite for innovative marketing education",
     heroDescription:
       "Each application is a mini-lab to practice key marketing concepts with data and simulations.",
     viewManual: "View teaching manual",
