@@ -21,15 +21,15 @@ export const apps = [
       CATEGORIES.INTERNACIONAL,
     ],
     title: {
-      es: "Posicionamiento (PCA / PrefMap)",
-      en: "Positioning (PCA / PrefMap)",
+      es: "Posicionamiento",
+      en: "Positioning",
     },
     description: {
       es: "Análisis de percepción de marca y mapas de posicionamiento.",
       en: "Brand perception analysis and positioning maps.",
     },
     status: "ready",
-    url: "https://poetic-arithmetic-a9c8ad.netlify.app/",
+    url: "https://uah-marketing-lab-posicionamiento.netlify.app",
   },
 
   // SEGMENTOR
