@@ -6,14 +6,13 @@ export const LANGS = {
 export const uiTexts = {
   es: {
     title: "UAH Marketing Lab",
-    subtitle: "Suite de aplicaciones interactivas para una docencia innovadora en marketing",
+    subtitle:
+      "Suite de aplicaciones interactivas para una docencia innovadora en marketing",
     heroDescription:
       "Cada aplicación es un mini-laboratorio para practicar conceptos clave con datos y simulaciones.",
     viewManual: "Ver manual docente",
     contact: "Contacto",
-    contactSectionTitle: "Contacto",
-    contactSectionSubtitle:
-      "Para consultas sobre el UAH Marketing Lab y sus aplicaciones docentes:",
+
     all: "Todas",
     category: {
       fundamentos: "Marketing Fundamentos",
@@ -32,9 +31,38 @@ export const uiTexts = {
     },
     openApp: "Abrir aplicación",
     comingSoon: "Próximamente",
+
     footerText:
-      "UAH · Departamento de Marketing (Autores: Dr. Pedro Cuesta Valiño, Dr. Sergey Kazakov) · 2025–2027",
+      "UAH · Departamento de Marketing (Autores: Dr. Pedro Cuesta Valiño | Dr. Sergey Kazakov | Dra. Patricia Durán Álamo) · © 2025–2027",
+
+    contactSectionTitle: "Contacto",
+    contactSectionSubtitle: "Equipo académico responsable del proyecto",
+
+    contacts: [
+      {
+        name: "Pedro Cuesta Valiño",
+        title: "Catedrático de Universidad",
+        faculty: "Facultad de Ciencias Económicas, Empresariales y Turismo",
+        dept: "Departamento de Economía y Dirección de Empresas",
+        email: "pedro.cuesta@uah.es",
+      },
+      {
+        name: "Sergey Kazakov",
+        title: "Profesor Ayudante Doctor, PhD, D.E.N., C.E.N.",
+        faculty: "Facultad de Ciencias Económicas, Empresariales y Turismo",
+        dept: "Departamento de Economía y Dirección de Empresas",
+        email: "sergey.kazakov@uah.es",
+      },
+      {
+        name: "Patricia Durán Álamo",
+        title: "Profesora Ayudante Doctora",
+        faculty: "Facultad de Ciencias Económicas, Empresariales y Turismo",
+        dept: "Departamento de Economía y Dirección de Empresas",
+        email: "patricia.duran@uah.es",
+      },
+    ],
   },
+
   en: {
     title: "UAH Marketing Lab",
     subtitle: "Interactive applications suite for innovative marketing education",
@@ -42,9 +70,7 @@ export const uiTexts = {
       "Each application is a mini-lab to practice key marketing concepts with data and simulations.",
     viewManual: "View teaching manual",
     contact: "Contact",
-    contactSectionTitle: "Contact",
-    contactSectionSubtitle:
-      "For questions about the UAH Marketing Lab and its teaching applications:",
+
     all: "All",
     category: {
       fundamentos: "Marketing Fundamentals",
@@ -63,13 +89,43 @@ export const uiTexts = {
     },
     openApp: "Open app",
     comingSoon: "Coming soon",
+
     footerText:
-      "UAH · Department of Marketing (Authors: Dr. Pedro Cuesta Valiño, Dr. Sergey Kazakov) · 2025–2027",
+      "UAH · Department of Marketing (Authors: Dr. Pedro Cuesta Valiño, Dr. Sergey Kazakov, Dr. Patricia Durán Álamo) · © 2025–2027",
+
+    contactSectionTitle: "Contact",
+    contactSectionSubtitle: "Academic team responsible for the project",
+
+    contacts: [
+      {
+        name: "Pedro Cuesta Valiño",
+        title: "Full Professor",
+        faculty: "Faculty of Economics, Business and Tourism",
+        dept: "Department of Economics and Business Administration",
+        email: "pedro.cuesta@uah.es",
+      },
+      {
+        name: "Sergey Kazakov",
+        title: "Assistant Professor (PhD)",
+        faculty: "Faculty of Economics, Business and Tourism",
+        dept: "Department of Economics and Business Administration",
+        email: "sergey.kazakov@uah.es",
+      },
+      {
+        name: "Patricia Durán Álamo",
+        title: "Assistant Professor (PhD)",
+        faculty: "Faculty of Economics, Business and Tourism",
+        dept: "Department of Economics and Business Administration",
+        email: "patricia.duran@uah.es",
+      },
+    ],
   },
 };
 
 export function getInitialLang() {
   const stored = window.localStorage.getItem("uah_lab_lang");
-  if (stored === LANGS.ES || stored === LANGS.EN) return stored;
+  if (stored === LANGS.ES || stored === LANGS.EN) {
+    return stored;
+  }
   return LANGS.ES;
 }

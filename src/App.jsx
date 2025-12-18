@@ -71,25 +71,17 @@ export default function App() {
             <p className="contact-subtitle">{t.contactSectionSubtitle}</p>
         
             <div className="contact-grid">
-              <article className="contact-card">
-                <h3>Pedro Cuesta Valiño</h3>
-                <p>Catedrático de Universidad</p>
-                <p>Facultad de Ciencias Económicas, Empresariales y Turismo</p>
-                <p>Departamento de Economía y Dirección de Empresas</p>
-                <a href="mailto:pedro.cuesta@uah.es">
-                  pedro.cuesta@uah.es
-                </a>
-              </article>
-              
-              <article className="contact-card">
-                <h3>Sergey Kazakov</h3>
-                <p>Profesor Ayudante Doctor, PhD, D.E.N., C.E.N.</p>
-                <p>Facultad de Ciencias Económicas, Empresariales y Turismo</p>
-                <p>Departamento de Economía y Dirección de Empresas</p>
-                <a href="mailto:sergey.kazakov@uah.es">
-                  sergey.kazakov@uah.es
-                </a>
-              </article>              
+              {t.contacts.map((c) => (
+                <article key={c.email} className="contact-card">
+                  <h3>{c.name}</h3>
+                  <p>{c.title}</p>
+                  {c.area && <p>{c.area}</p>}
+                  <p>{c.dept}</p>
+                  <p>{c.faculty}</p>
+                  {c.uni && <p>{c.uni}</p>}
+                  <a href={`mailto:${c.email}`}>{c.email}</a>
+                </article>
+              ))}
             </div>
           </section>      
       <Footer lang={lang} />
