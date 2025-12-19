@@ -33,7 +33,7 @@ export const uiTexts = {
     comingSoon: "Próximamente",
 
     footerText:
-      "UAH · Departamento de Marketing (Autores: Dr. Pedro Cuesta Valiño | Dr. Sergey Kazakov | Dra. Patricia Durán Álamo) · © 2025–2027",
+      "Universidad de Alcalá · Autores: Dr. Pedro Cuesta Valiño | Dr. Sergey Kazakov | Dra. Patricia Durán Álamo · © 2025–2027",
 
     contactSectionTitle: "Contacto",
     contactSectionSubtitle: "Equipo académico responsable del proyecto",
@@ -91,7 +91,7 @@ export const uiTexts = {
     comingSoon: "Coming soon",
 
     footerText:
-      "UAH · Department of Marketing (Authors: Dr. Pedro Cuesta Valiño, Dr. Sergey Kazakov, Dr. Patricia Durán Álamo) · © 2025–2027",
+      "Universidad de Alcalá · Authors: Dr. Pedro Cuesta Valiño, Dr. Sergey Kazakov, Dr. Patricia Durán Álamo · © 2025–2027",
 
     contactSectionTitle: "Contact",
     contactSectionSubtitle: "Academic team responsible for the project",
