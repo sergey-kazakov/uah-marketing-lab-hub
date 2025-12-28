@@ -29,7 +29,7 @@ export const apps = [
       en: "Brand perception analysis and positioning maps.",
     },
     status: "ready",
-    url: "https://uah-marketing-lab-posicionamiento.netlify.app",
+    url: "https://posicionamiento-web-direct.netlify.app/",
   },
 
   // SEGMENTOR
