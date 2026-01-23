@@ -16,7 +16,7 @@ export const uiTexts = {
     all: "Todas",
     category: {
       fundamentos: "Marketing Fundamentos",
-      estrategias: "Estrategias de Marketing",
+      estrategias: "Marketing: Estrategias",
       servicios: "Marketing de Servicios",
       internacional: "Marketing Internacional",
       distribucion: "Distribución Comercial",
@@ -74,7 +74,7 @@ export const uiTexts = {
     all: "All",
     category: {
       fundamentos: "Marketing Fundamentals",
-      estrategias: "Marketing Strategy",
+      estrategias: "Marketing: Strategies",
       servicios: "Services Marketing",
       internacional: "International Marketing",
       distribucion: "Retail & Distribution",
