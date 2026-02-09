@@ -52,8 +52,8 @@ export const apps = [
       es: "Segmentación con K-means y métodos jerárquicos, creación de personas.",
       en: "Segmentation with K-means and hierarchical methods, persona creation.",
     },
-    status: "dev",
-    url: null,
+    status: "ready",
+    url: "https://uah-marketing-lab-segmentor.netlify.app/",
   },
 
   // STP-SIMULATOR
